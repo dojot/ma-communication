@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.service.api;
+package br.com.dojot.mutualauthentication.communication.service.api;
 
 public interface KafkaBrokersService {
 	

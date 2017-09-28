@@ -1,10 +1,10 @@
-package br.com.cpqd.mutualauthentication.communication.service.impl;
+package br.com.dojot.mutualauthentication.communication.service.impl;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import br.com.cpqd.mutualauthentication.communication.service.api.KafkaBrokersService;
+import br.com.dojot.mutualauthentication.communication.service.api.KafkaBrokersService;
 
 public class KafkaBrokersServiceBean implements KafkaBrokersService {
 	

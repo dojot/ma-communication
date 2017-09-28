@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.exceptions;
+package br.com.dojot.mutualauthentication.communication.exceptions;
 
 public class InvalidResponseException extends Exception {
 	/**

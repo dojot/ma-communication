@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.constants;
+package br.com.dojot.mutualauthentication.communication.constants;
 
 public interface CommunicationKeysConstants {
 

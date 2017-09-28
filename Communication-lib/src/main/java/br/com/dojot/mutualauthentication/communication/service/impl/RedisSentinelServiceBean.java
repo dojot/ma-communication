@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.service.impl;
+package br.com.dojot.mutualauthentication.communication.service.impl;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import br.com.cpqd.mutualauthentication.communication.service.api.RedisSentinelService;
+import br.com.dojot.mutualauthentication.communication.service.api.RedisSentinelService;
 
 public class RedisSentinelServiceBean implements RedisSentinelService {
 

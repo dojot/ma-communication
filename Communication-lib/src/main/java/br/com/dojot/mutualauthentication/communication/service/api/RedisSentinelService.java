@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.service.api;
+package br.com.dojot.mutualauthentication.communication.service.api;
 
 import java.util.List;
 import java.util.Set;

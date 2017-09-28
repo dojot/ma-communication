@@ -1,11 +1,11 @@
-package br.com.cpqd.mutualauthentication.communication.service.impl;
+package br.com.dojot.mutualauthentication.communication.service.impl;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Properties;
 
-import br.com.cpqd.mutualauthentication.communication.service.api.NodeConfigsService;
+import br.com.dojot.mutualauthentication.communication.service.api.NodeConfigsService;
 
 public class NodeConfigsServiceBean implements NodeConfigsService {
 

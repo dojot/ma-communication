@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.facade.impl;
+package br.com.dojot.mutualauthentication.communication.facade.impl;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -6,18 +6,18 @@ import java.util.Set;
 
 import org.json.JSONObject;
 
-import br.com.cpqd.mutualauthentication.communication.exceptions.InvalidResponseException;
-import br.com.cpqd.mutualauthentication.communication.facade.api.CommunicationFacade;
-import br.com.cpqd.mutualauthentication.communication.service.api.GETService;
-import br.com.cpqd.mutualauthentication.communication.service.api.KafkaBrokersService;
-import br.com.cpqd.mutualauthentication.communication.service.api.NodeConfigsService;
-import br.com.cpqd.mutualauthentication.communication.service.api.POSTService;
-import br.com.cpqd.mutualauthentication.communication.service.api.RedisSentinelService;
-import br.com.cpqd.mutualauthentication.communication.service.impl.GETServiceBean;
-import br.com.cpqd.mutualauthentication.communication.service.impl.KafkaBrokersServiceBean;
-import br.com.cpqd.mutualauthentication.communication.service.impl.NodeConfigsServiceBean;
-import br.com.cpqd.mutualauthentication.communication.service.impl.POSTServiceBean;
-import br.com.cpqd.mutualauthentication.communication.service.impl.RedisSentinelServiceBean;
+import br.com.dojot.mutualauthentication.communication.exceptions.InvalidResponseException;
+import br.com.dojot.mutualauthentication.communication.facade.api.CommunicationFacade;
+import br.com.dojot.mutualauthentication.communication.service.api.GETService;
+import br.com.dojot.mutualauthentication.communication.service.api.KafkaBrokersService;
+import br.com.dojot.mutualauthentication.communication.service.api.NodeConfigsService;
+import br.com.dojot.mutualauthentication.communication.service.api.POSTService;
+import br.com.dojot.mutualauthentication.communication.service.api.RedisSentinelService;
+import br.com.dojot.mutualauthentication.communication.service.impl.GETServiceBean;
+import br.com.dojot.mutualauthentication.communication.service.impl.KafkaBrokersServiceBean;
+import br.com.dojot.mutualauthentication.communication.service.impl.NodeConfigsServiceBean;
+import br.com.dojot.mutualauthentication.communication.service.impl.POSTServiceBean;
+import br.com.dojot.mutualauthentication.communication.service.impl.RedisSentinelServiceBean;
 
 public class CommunicationFacadeBean implements CommunicationFacade {
 	@Override

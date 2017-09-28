@@ -1,8 +1,8 @@
-package br.com.cpqd.mutualauthentication.communication.service.api;
+package br.com.dojot.mutualauthentication.communication.service.api;
 
 import java.util.LinkedHashMap;
 
-import br.com.cpqd.mutualauthentication.communication.exceptions.InvalidResponseException;
+import br.com.dojot.mutualauthentication.communication.exceptions.InvalidResponseException;
 
 public interface POSTService {
 	

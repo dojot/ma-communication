@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.service.impl;
+package br.com.dojot.mutualauthentication.communication.service.impl;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -8,8 +8,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import br.com.cpqd.mutualauthentication.communication.exceptions.InvalidResponseException;
-import br.com.cpqd.mutualauthentication.communication.service.api.GETService;
+import br.com.dojot.mutualauthentication.communication.exceptions.InvalidResponseException;
+import br.com.dojot.mutualauthentication.communication.service.api.GETService;
 
 public class GETServiceBean implements GETService {
 

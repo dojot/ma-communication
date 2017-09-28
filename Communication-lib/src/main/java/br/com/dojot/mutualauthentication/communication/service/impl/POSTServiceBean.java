@@ -1,4 +1,4 @@
-package br.com.cpqd.mutualauthentication.communication.service.impl;
+package br.com.dojot.mutualauthentication.communication.service.impl;
 
 import java.util.LinkedHashMap;
 import java.util.concurrent.TimeUnit;
@@ -13,8 +13,8 @@ import javax.ws.rs.core.Response.Status;
 
 import org.jboss.resteasy.client.jaxrs.ResteasyClientBuilder;
 
-import br.com.cpqd.mutualauthentication.communication.exceptions.InvalidResponseException;
-import br.com.cpqd.mutualauthentication.communication.service.api.POSTService;
+import br.com.dojot.mutualauthentication.communication.exceptions.InvalidResponseException;
+import br.com.dojot.mutualauthentication.communication.service.api.POSTService;
 
 public class POSTServiceBean implements POSTService {
 

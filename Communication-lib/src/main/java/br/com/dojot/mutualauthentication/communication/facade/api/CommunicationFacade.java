@@ -1,10 +1,10 @@
-package br.com.cpqd.mutualauthentication.communication.facade.api;
+package br.com.dojot.mutualauthentication.communication.facade.api;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
-import br.com.cpqd.mutualauthentication.communication.exceptions.InvalidResponseException;
+import br.com.dojot.mutualauthentication.communication.exceptions.InvalidResponseException;
 
 public interface CommunicationFacade {
 	
